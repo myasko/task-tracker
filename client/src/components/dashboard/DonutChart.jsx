@@ -8,8 +8,8 @@ export default function DonutChart({ data = [] }) {
 
   return (
     <VStack gap="20" p={2}>
-        <Chart.Root boxSize="200px" chart={chart} mx="auto">
-          <PieChart responsive> // margin= left: 0, top: 70, right: 0, bottom: 0 
+        <Chart.Root boxSize="200px" chart={chart} mx="auto" marginTop="10">
+          <PieChart responsive>  // 
             <Tooltip
               cursor={false}
               animationDuration={100}
